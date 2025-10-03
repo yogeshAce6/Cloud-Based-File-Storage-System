@@ -156,3 +156,6 @@ http://13.233.120.153:5000/   // Your public ipv4 of ec2and port 5000 to open we
 ![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/53d4471d15bb3891d62d90fd63a93952ee1f580a/cloud/codecloudbasedfilestorage%20-%20S3%20bucket%20_%20S3%20_%20us-east-1%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_55_19.png)
 
 ![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/df88d557407f9ad770e189b8a5757f8aeb278c33/cloud/Upload%20File%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_51_33.png)
+
+You Upload A  File It Will Store In A S3 Bucket.
+![iamgeAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/10dfbb70c7b050cb48531b255d72e66dead571d4/cloud/codecloudbasedfilestorage%20-%20S3%20bucket%20_%20S3%20_%20us-east-1%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_53_24.png)
