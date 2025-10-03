@@ -153,4 +153,4 @@ http://13.233.120.153:5000/   // Your public ipv4 of ec2and port 5000 to open we
 
 ### final Output will
 
-![imageAlt]()
+![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/53d4471d15bb3891d62d90fd63a93952ee1f580a/cloud/codecloudbasedfilestorage%20-%20S3%20bucket%20_%20S3%20_%20us-east-1%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_55_19.png)
