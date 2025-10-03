@@ -25,3 +25,14 @@ This project implements a cloud-based file storage system using AWS S3 for scala
 3. Click The CheckBox.
 4. Click CreateBucket.
 ![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/03103f9236b49febbdfbe56728c3f1b0c3e05016/cloud/Homepage%20_%20S3%20_%20us-east-1%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2003-10-2025%2014_11_10.png)
+
+### 1. Launch an EC2 Instance
+
+1. Log in to AWS Management Console and launch an EC2 instance with Ubuntu Server.
+2. Configure the security group to allow HTTP (port 80), HTTPS (port 443), and SSH (port 22),CoustomTcp(port 5000).
+3.Launch Instance.
+
+![imageAlt]()
+
+
+
