@@ -34,5 +34,6 @@ This project implements a cloud-based file storage system using AWS S3 for scala
 
 ![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/d57f196708764ff0212b5d35318cb77f57ae3d9c/cloud/Launch%20an%20instance%20_%20EC2%20_%20us-east-1%20-%20Google%20Chrome%2003-10-2025%2014_34_02.png)
 
+4.After Launch Instances.
 
-
+![imageAlt]()
