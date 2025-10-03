@@ -154,4 +154,4 @@ http://13.233.120.153:5000/   // Your public ipv4 of ec2and port 5000 to open we
 
 ![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/13bb045eec494cbd57b9c7e6c1fad535596c2f97/cloud/codecloudbasedfilestorage%20-%20S3%20bucket%20_%20S3%20_%20us-east-1%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_55_19.png)
 
-![imageAlt]()
+![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/9973d9a06410be57e7b5212f9d7efbc9cb4d3e7a/cloud/Upload%20File%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_51_33.png)
