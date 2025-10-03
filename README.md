@@ -37,3 +37,115 @@ This project implements a cloud-based file storage system using AWS S3 for scala
 4.After Launch Instances.
 
 ![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/29c56b071eb36a519a512e86c7c35df44411fd8c/cloud/codecloudbasedfilestorage%20-%20S3%20bucket%20_%20S3%20_%20us-east-1%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_54_49.png)
+
+### 2. Connect to Your EC2 Instance
+
+```bash
+ssh -i "your-key-pair.pem" ubuntu@your-ec2-public-dns
+
+sudo yum update -y 
+sudo yum install python3-pip -y 
+pip3 --version 
+pip3 install Flask boto3 
+mkdir file_storage_app 
+cd file_storage_app 
+nano app.py 
+this will open nano text editor where we have to paste a code
+ import boto3
+import os
+from flask import Flask, request, render_template_string
+
+app = Flask(_name_)
+
+S3_BUCKET_NAME = 'endsemproj'  # your bucket name
+s3 = boto3.client('s3', region_name='ap-south-1')
+
+@app.route('/', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        if 'file' not in request.files:
+            return 'No file part'
+        file = request.files['file']
+        if file.filename == '':
+            return 'No selected file'
+        try:
+            s3.upload_fileobj(file, S3_BUCKET_NAME, file.filename)
+            return 'File uploaded successfully!'
+        except Exception as e:
+            return f'Error uploading file: {e}'
+    
+    # Styled HTML form
+    html_form = '''
+    <!doctype html>
+    <html>
+    <head>
+        <title>Upload File</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: linear-gradient(to right, #74ebd5, #ACB6E5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .upload-box {
+                background-color: white;
+                padding: 40px;
+                border-radius: 12px;
+                box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+                text-align: center;
+                width: 350px;
+            }
+
+            h1 {
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            input[type="file"] {
+                margin: 20px 0;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                width: 100%;
+            }
+
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 24px;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 16px;
+                width: 100%;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="upload-box">
+            <h1>Upload a New File</h1>
+            <form method="post" enctype="multipart/form-data">
+                <input type="file" name="file"><br>
+                <input type="submit" value="Upload">
+            </form>
+        </div>
+    </body>
+    </html>
+    '''
+    return render_template_string(html_form)
+
+if _name_ == '_main_':
+    app.run(debug=True, host='0.0.0.0')
+ctrl+o , enter , ctrl+x 
+ 
+python3 app.py 
+http://13.233.120.153:5000/   // Your public ipv4 of ec2and port 5000 to open website 
