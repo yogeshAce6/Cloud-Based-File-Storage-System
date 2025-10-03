@@ -36,4 +36,4 @@ This project implements a cloud-based file storage system using AWS S3 for scala
 
 4.After Launch Instances.
 
-![imageAlt]()
+![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/29c56b071eb36a519a512e86c7c35df44411fd8c/cloud/codecloudbasedfilestorage%20-%20S3%20bucket%20_%20S3%20_%20us-east-1%20and%206%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2001-10-2025%2018_54_49.png)
