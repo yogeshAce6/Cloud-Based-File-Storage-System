@@ -24,4 +24,4 @@ This project implements a cloud-based file storage system using AWS S3 for scala
 2. Block All The public Access.
 3. Click The CheckBox.
 4. Click CreateBucket.
-![imageAlt]()
+![imageAlt](https://github.com/yogeshAce6/Cloud-Based-File-Storage-System/blob/03103f9236b49febbdfbe56728c3f1b0c3e05016/cloud/Homepage%20_%20S3%20_%20us-east-1%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2003-10-2025%2014_11_10.png)
