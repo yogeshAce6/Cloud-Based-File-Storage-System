@@ -148,4 +148,8 @@ if _name_ == '_main_':
 ctrl+o , enter , ctrl+x 
  
 python3 app.py 
-http://13.233.120.153:5000/   // Your public ipv4 of ec2and port 5000 to open website 
+http://13.233.120.153:5000/   // Your public ipv4 of ec2and port 5000 to open website
+
+### final Output will
+
+![imageAlt]()
